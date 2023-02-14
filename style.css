@@ -1,0 +1,85 @@
+body {
+    background-color:#7FCDCD;
+}
+
+#details {
+    display: grid;
+    grid-template-columns: 300px ;
+
+}
+h1{
+    margin-top:30px;
+    color:#87a235;
+    text-decoration: underline;
+}
+input[type="text"]::placeholder{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(21, 16, 16);
+    font-weight: bold;
+}
+input[type="text"]{
+    width:300px;
+    height: 40px;
+    color:#171616;
+    font-weight: 800;
+    text-align: center;
+    background: inherit;
+    border-radius: 7px;
+    border-top: hidden;
+    border-left:hidden;
+    border-right: hidden;
+    outline:none;
+    border-bottom-color: #141211;
+}
+#rollno{
+    margin-left:px;
+}
+#table{
+    border: 2px solid inherit;
+    margin-top: 100px;
+    margin-left:100px;
+    
+}
+button{
+    width:100px;
+}
+td{
+    width:200px;
+}
+.btn-outline-success {
+   
+    font-family: cursive;
+    border-radius: 40px;
+    color:black;
+    border:2px solid #101312;
+}
+.btn-outline-info {
+   
+    font-family: cursive;
+    border-radius: 40px;
+    color:black;
+    border:2px solid #101312;
+
+}
+.btn-outline-warning {
+   
+    font-family: cursive;
+    border-radius: 40px;
+    color:black;
+    border:2px solid #101312;
+
+}
+.btn-outline-danger {
+    
+    font-family: cursive;
+    border-radius: 40px;
+    color:black;
+    border:2px solid #101312;
+
+}
+#table{
+    border:2px solid black;
+    box-shadow: 10px 15px 50px;
+    text-align: center;
+}
