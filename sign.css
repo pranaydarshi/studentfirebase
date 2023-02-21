@@ -1,0 +1,40 @@
+table {
+    width: 400px;
+    height: 1px;
+    border: 10px solid white;
+    box-shadow: 10px 15px 100px rgb(7, 6, 6);
+    margin-top: 1px;
+    border-radius: 35px;
+}
+
+th {
+    border: 2px solid black;
+}
+
+input {
+    width: 90%;
+    height: 25px;
+    text-align: center;
+    font-weight: 900;
+}
+
+::placeholder {
+    text-align: center;
+    font-weight: 500;
+}
+
+#email,
+#password,
+#username {
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    outline: none;
+}
+
+#google,
+#twitter,
+#facebook {
+    margin-top: 10px;
+    widtH: 45%;
+}
